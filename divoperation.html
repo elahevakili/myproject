@@ -1,0 +1,90 @@
+<html>
+
+    <link href="Divoperation.css" rel="stylesheet">
+    <link href="bootstrap/bootstrap.min.css" rel="stylesheet">
+    <script href="bootstrap/bootstrap.min.js"></script>
+    <script href="bootstrap/bootstrap.bundle.js.map"></script>
+    <head>
+        <title>عملیات اصلی ریاضی</title>
+        <meta enconding="UTF-8"/>
+    </head>
+    <script>
+
+        function plus() {
+            let A = document.getElementById("firstNumber").value;
+            let B = document.getElementById("secondNumber").value;
+            let P = parseFloat(A) + parseFloat(B);
+            document.getElementById("fillblank").innerHTML= P;
+            console.log(p);
+        }
+
+        function minos() {
+            let A=document.getElementById("firstNumber").value;
+            let B=document.getElementById("secondNumber").value;
+            let M = parseFloat(A) - parseFloat(B);
+            document.getElementById("fillblank").innerHTML= M;
+            console.log(M);
+        }
+
+        function multipluy() {
+            let A=document.getElementById("firstNumber").value;
+            let B =document.getElementById("secondNumber").value;
+            let Z = parseFloat(A) * parseFloat(B);
+            document.getElementById("fillblank").innerHTML= Z;
+            console.log(Z);
+
+
+        }
+
+        function divide() {
+            let A = document.getElementById("firstNumber").value;
+            let B = document.getElementById("secondNumber").value;
+            let D = parseFloat(A) / parseFloat(B);
+            document.getElementById("fillblank").innerHTML= D;
+            console.log(D);
+
+
+        }
+    </script>
+</html>
+<body class="body"> 
+    <div class="countainer mt-5"  id="div">
+        <div class="row" >
+            <div ><br>
+                <h1> Four basic mathematical operations </h1>
+                <br>
+                <form action="/action_page.php">
+                    <input type="number"   id="firstNumber" placeholder= "Enter x" name="x"  class="input"><br>
+                    
+                    <input type="number"   id="secondNumber"  placeholder="Enter y" name="y"  class="input" >
+
+                </form>
+            </div>
+            
+        </div>
+
+
+        <div class="row"> 
+            <div >
+
+                <button onclick="plus()" type="button" class="btn btn-outline-success btn-floating" data-mdb-ripple-color="dark"  id="b1"> <b> + </b> </button>
+                <button onclick="minos()" type="button" class="btn btn-outline-success btn-floating" data-mdb-ripple-color="dark" id="b2" > <b> _ </b> </button><br>
+
+                <button onclick="multipluy()" type="button" class="btn btn-outline-success btn-floating" data-mdb-ripple-color="dark" id="b3"> <b> * </b></button>
+                <button onclick="divide()" type="button" class="btn btn-outline-success btn-floating" data-mdb-ripple-color="dark"  id="b4"> <b> / </b> </button><br> 
+
+
+
+
+            </div>
+        </div><br>
+
+        <div class="row">
+            <div >
+
+                <p id="result" class="h3"> result : <label id="fillblank"> ------ </label> </p> <br>
+
+            </div>
+        </div>
+    </div>
+</body>
