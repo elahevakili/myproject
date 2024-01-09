@@ -1,0 +1,53 @@
+.body{
+    text-align: center;
+    background-color: rgb(63, 221, 198);
+  }
+
+  .input{
+    text-align: center;
+    width: 500px;
+    margin: 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    display: inline-block;
+    border-color: rgb(61, 223, 223);
+
+  }
+  #div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+    width: 800px;
+    height: 550px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: auto;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+    
+  }
+  #b1 {
+    width: 40px;
+    padding: 10px;
+    margin: 5px;
+  }
+
+  #b2 {
+    width: 40px;
+    padding: 10px;
+    margin: 5px;
+  }
+
+  #b3 {
+    width: 40px;
+    padding: 10px;
+    margin: 5px;
+  }
+
+  #b4 {
+    width: 40px;
+    padding: 10px;
+    margin: 5px;
+  }
+
