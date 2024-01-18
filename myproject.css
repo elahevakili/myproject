@@ -1,0 +1,29 @@
+.navbar1 {
+    background-color: #a2d2ff;
+    height: auto;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+
+
+.image {
+    width: 300px;
+    height: auto;
+    margin: 2px;
+    border: 50%;
+    border-radius: 30px;
+    box-shadow: #78acdc;
+    margin-bottom: 7px;
+
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table tr:hover {
+    background-color: #ccd5ae;
+}
